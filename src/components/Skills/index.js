@@ -47,11 +47,21 @@ const Desc = styled.div`
 
 const SkillsContainer = styled.div`
   width: 100%;
+  margin-left: 20px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   justify-content: center;
-  gap: 30px;
+  gap: 15px;
   margin-top: 30px;
+  @media (max-width: 768px) {
+    gap: 15px;
+    width: 90%;
+    margin-left: 5px;
+  }
+  @media (max-width: 500px) {
+    gap: 15px;
+    margin-left: 5px;
+  }
 `;
 
 const Skill = styled.div`
@@ -62,11 +72,11 @@ const Skill = styled.div`
   border-radius: 16px;
   padding: 18px 36px;
   @media (max-width: 768px) {
-    max-width: 400px;
+    max-width: 300px;
     padding: 10px 36px;
   }
   @media (max-width: 500px) {
-    max-width: 330px;
+    max-width: 200px;
     padding: 10px 36px;
   }
 `;
