@@ -74,9 +74,8 @@ function Experience() {
       <Wrapper>
         <Title>Experience</Title>
         <Desc>
-          I have experience in creating projects. During internships, I focused
-          on creating web-based projects, enhance my skills and delivering
-          effective solutions.
+          During internships, I focused on creating web-based projects, enhance
+          my skills using projects.
         </Desc>
         <TimeLineSection>
           <Timeline>

@@ -109,7 +109,7 @@ const ResumeButton = styled.a`
   width: 90%;
   max-width: 500px;
   text-align: center;
-  padding: 15px 8px;
+  padding: 15px 20px;
 
   background: hsla(271, 100%, 50%, 1);
   background: linear-gradient(
@@ -186,7 +186,7 @@ function Hero() {
             <SubTitle>{Bio.description}</SubTitle>
 
             <ResumeButton href={Bio.resume} target="_blank">
-              Check Resume
+              Resume
             </ResumeButton>
           </HeroLeftContainer>
 

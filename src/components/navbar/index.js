@@ -121,7 +121,7 @@ const Navbar = () => {
               cursor: "pointer",
             }}
           >
-            <FaLaptopCode size="3rem" /> <Spam>Darshan Portfolio</Spam>
+            <FaLaptopCode size="3rem" /> <Spam>Darshan's Portfolio</Spam>
           </a>
         </NavLogo>
 

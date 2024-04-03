@@ -4,7 +4,11 @@ import { projects } from "../../data/constants";
 import ProjectCard from "../Cards/Projectcard";
 
 const Container = styled.div`
-  background: linear-gradient(343.07deg, rgba(132, 59, 206, 0.06) 5.71%, rgba(132, 59, 206, 0) 64.83%);
+  background: linear-gradient(
+    343.07deg,
+    rgba(132, 59, 206, 0.06) 5.71%,
+    rgba(132, 59, 206, 0) 64.83%
+  );
   margin-top: 100px;
   display: flex;
   flex-direction: column;
@@ -69,7 +73,8 @@ const Projects = ({ openModal, setOpenModal }) => {
       <Wrapper>
         <Title>Projects</Title>
         <Desc>
-          I have worked on a wide range of projects. From web apps to Android apps. Here are some of my projects.
+          Here are some of the projects I've undertaken, showcasing my diverse
+          experience across web development.
         </Desc>
         <CardContainer>
           {toggle === "all" &&

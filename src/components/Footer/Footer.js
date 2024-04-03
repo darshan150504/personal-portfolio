@@ -78,13 +78,6 @@ const SocialMediaIcon = styled.a`
   }
 `;
 
-const Copyright = styled.p`
-  margin-top: 1.5rem;
-  font-size: 0.9rem;
-  color: ${({ theme }) => theme.soft2};
-  text-align: center;
-`;
-
 const Footer = () => {
   return (
     <FooterContainer>
@@ -111,7 +104,6 @@ const Footer = () => {
             <YouTubeIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2024 Darshan Chavda. All rights reserved.</Copyright>
       </FooterWrapper>
     </FooterContainer>
   );

@@ -1,18 +1,23 @@
-//My Bio
+// My Bio
 export const Bio = {
   name: "Darshan Chavda",
-  roles: ["Web Developer", "Engineering Student", "Piano Artist", "You-Tuber"],
+  roles: [
+    "Web Developer",
+    "Engineering Student",
+    "Piano Artist",
+    "Content Creator",
+  ],
   description:
-    "Always want to learn Hello World in different ways. I am a Computer Engineering student from CHARUSAT. I interned at ProjectTree, focusing on JavaScript and Reactjs technologies. I love technology and find it amazing how it changes the world. Certain skills that I have acquired is Data Structures and Algorithms (Java) & Web Development (JavaScript, Reactjs). While I may not have all the skills, but I'm determined to learn and make up for it. Outside of tech, I am a Piano Artist. You can watch my skill on my youtube channel. Additionally I am good athlete.",
+    "Always eager to learn 'Hello World' in different ways. I am a Computer Engineering student from CHARUSAT. I interned at ProjectTree, focusing on JavaScript and Reactjs technologies. I love technology and find it amazing how it changes the world. Certain skills that I have acquired are Data Structures and Algorithms (Java) & Web Development (JavaScript, Reactjs). While I may not have all the skills, I'm determined to learn and make up for it. Outside of tech, I am a Piano Artist. You can watch my skills on my YouTube channel. Additionally, I am a good athlete.",
   linkedin: "https://www.linkedin.com/in/darshan-chavda-9097a7245/",
-  x: "https://twitter.com/chavda_darshu",
+  twitter: "https://twitter.com/chavda_darshu",
   resume:
     "https://drive.google.com/drive/folders/1OM2t7n4oG6eP8060MegSxWPAULmpvUdk?usp=sharing",
-  insta: "https://www.instagram.com/darshan_1505/",
+  instagram: "https://www.instagram.com/darshan_1505/",
   youtube: "https://youtube.com/@darshanchavda1505?si=BKmspeFneDBzAn0C",
 };
 
-//Skills
+// Skills
 export const skills = [
   {
     title: "Frontend",
@@ -119,7 +124,7 @@ export const skills = [
   },
 ];
 
-//Exprriences
+// Experiences
 export const experiences = [
   {
     id: 0,
@@ -127,13 +132,13 @@ export const experiences = [
     role: "Frontend Engineer Intern",
     company: "ProjectTree",
     date: "May 2023 - June 2023",
-    desc: "Studied React and JavaScript. Create a project with the React and JavaScript libraries. Acquired understanding of industry procedures and client interactions. Learn how to lead and collaborate with a team.",
+    desc: "Studied React and JavaScript. Created projects using React and JavaScript libraries. Gained understanding of industry procedures and client interactions. Learned how to lead and collaborate with a team.",
     skills: ["JavaScript", "ReactJS", "HTML", "CSS"],
     doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
   },
 ];
 
-//Education
+// Education
 export const education = [
   {
     id: 0,
@@ -141,7 +146,7 @@ export const education = [
     school: "Chandubhai S. Patel Institute of Technology (CHARUSAT)",
     date: "Oct 2021 - Present",
     grade: "8.5 CGPA (until 5th Semester)",
-    desc: "I am currently pursuing a Bachelor's degree in Computer Engineering at Charotar University of Science and Technology, Anand. I have completed 5 semesters and have a CGPA of 8.5. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems among others.",
+    desc: "Currently pursuing a Bachelor's degree in Computer Engineering at Charotar University of Science and Technology, Anand. Completed 5 semesters with a CGPA of 8.5. Completed courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, among others.",
     degree: "Bachelor of Technology - BTech, Computer Engineering",
   },
   {
@@ -150,7 +155,7 @@ export const education = [
     school: "Sarvodaya High School, Ankleshwar",
     date: "June 2017 - June 2019",
     grade: "84%",
-    desc: "I completed my high school education (class 12) at Sarvodaya High School, Ankleshwar.",
+    desc: "Completed high school education (class 12) at Sarvodaya High School, Ankleshwar.",
     degree: "HSC",
   },
   {
@@ -159,7 +164,7 @@ export const education = [
     school: "SMT. P. D. Shroff Sanskardeep Vidhyalaya, Ankleshwar",
     date: "Until April 2017",
     grade: "82.3%",
-    desc: "I completed my secondary school education (class 10) at SMT. P. D. Shroff Sanskardeep Vidhyalaya, Ankleshwar.",
+    desc: "Completed secondary school education (class 10) at SMT. P. D. Shroff Sanskardeep Vidhyalaya, Ankleshwar.",
     degree: "SSC",
   },
 ];
@@ -170,16 +175,11 @@ export const projects = [
     id: 1,
     title: "Portfolio",
     date: "March 2024",
-    description:
-      "It give the information about me and show case my skills as well as",
+    description: "It provides information about me and showcases my skills.",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/d/dc/Portfolio.hu_full_logo.png",
-    tags: [
-      "React Js",
-      "JavaScript",
-      "CSS"
-    ],
-    github: "",
-    deploylink: ""
+      "https://media.istockphoto.com/id/1125625274/vector/unique-modern-creative-elegant-letter-d-based-vector-icon-logo-template.jpg?s=612x612&w=0&k=20&c=CAl475WFm2ErEgh1BjzlqFG95sADQ1OetS6pJsOTEOA=",
+    tags: ["React Js", "JavaScript", "CSS"],
+    github: "https://github.com/darshan150504/Portfolio",
+    deploylink: "https://darshan150504.github.io/Portfolio/",
   },
 ];
