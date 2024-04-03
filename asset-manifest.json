@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/personal-portfolio/static/css/main.6342cd21.css",
+    "main.js": "/personal-portfolio/static/js/main.5d5e9354.js",
+    "static/media/darshan-removebg-preview-fotor-bg-remover-2024030516205.png": "/personal-portfolio/static/media/darshan-removebg-preview-fotor-bg-remover-2024030516205.e698a2764f4f0a1faf5e.png",
+    "index.html": "/personal-portfolio/index.html",
+    "main.6342cd21.css.map": "/personal-portfolio/static/css/main.6342cd21.css.map",
+    "main.5d5e9354.js.map": "/personal-portfolio/static/js/main.5d5e9354.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6342cd21.css",
+    "static/js/main.5d5e9354.js"
+  ]
+}
